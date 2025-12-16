@@ -1,8 +1,8 @@
-# 🧠 SAM-MATLAB-Annotation-Tool  
+# 🧠 QuickSAM: Annotation Tool  
 ### Interactive Image Annotation Using Segment Anything Model (SAM) in MATLAB
 
 <p align="center">
-  <img src="README Data/Screenshot 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="100%">
+  <img src="README Data/Screenshot 1.jpg" alt="QuickSAM" Annotation Tool Screenshot" width="100%">
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## 🔍 Overview
 
-**SAM-MATLAB-Annotation-Tool** is a clean, interactive, and production-ready image annotation application developed entirely in **MATLAB** and powered by the **Segment Anything Model (SAM)**.
+**QuickSAM:Annotation-Tool** is a clean, interactive, and production-ready image annotation application developed entirely in **MATLAB** and powered by the **Segment Anything Model (SAM)**.
 
 The tool enables **image-by-image annotation** using **bounding boxes (and extensible point prompts)**, producing **high-quality segmentation masks** without any model training.  
 It is ideal for **researchers, engineers, and practitioners** who want fast and accurate ground-truth generation directly inside MATLAB.
