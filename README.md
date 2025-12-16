@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>A professional, training-free image annotation tool built in MATLAB using the Segment Anything Model (SAM)</b>
+  <b>A training-free image annotation tool built in MATLAB using the Segment Anything Model (SAM)</b>
 </p>
 
 <p align="center">
