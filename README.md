@@ -2,7 +2,7 @@
 ### Interactive Image Annotation Using Segment Anything Model (SAM) in MATLAB
 
 <p align="center">
-  <img src="README Data/Screenshot 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="90%">
+  <img src="README Data/Screenshot 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="100%">
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ For each annotated image, the tool automatically generates:
 a) Image 1.jpg
 
 <p align="center">
-  <img src="README Data/Picture1.png" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
+  <img src="README Data/Picture1.png" alt="SAM MATLAB Annotation Tool Screenshot" width="100%">
 </p>
 
 
