@@ -111,17 +111,17 @@ This format is **directly convertible** to YOLO, COCO, or custom pipelines.
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 
 git clone 
 https://github.com/Owais-CodeHub/SAM-MATLAB-Annotation-Tool.git
 
 
-2️⃣ Open MATLAB
+Open MATLAB
 
 Ensure all required toolboxes and the SAM support package are installed.
 
-3️⃣ Run the Application
+Run the Application
 
 SAM_Image_Annotation_App.m
