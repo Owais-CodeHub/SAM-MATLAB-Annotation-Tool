@@ -62,3 +62,5 @@ The interface is designed to be **simple, intuitive, and professional**:
 For each annotated image, the tool automatically generates:
 
 ### 1️⃣ Segmentation Mask
+
+Masks/Image 1_mask.png
