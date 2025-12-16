@@ -62,7 +62,6 @@ The interface is designed to be **simple, intuitive, and professional**:
 For each annotated image, the tool automatically generates:
 
 ### 1️⃣ Original Image and Segmentation Mask
-a) Image 1.jpg
 
 <p align="center">
   <img src="README Data/Picture1.png" alt="SAM MATLAB Annotation Tool Screenshot" width="100%">
@@ -74,7 +73,7 @@ a) Image 1.jpg
 
 ### 2️⃣ Bounding Box Annotations
 
-BBoxes/Image 1_bboxes.csv
+BBoxes
 
 
 **CSV format**
