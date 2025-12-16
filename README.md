@@ -61,6 +61,67 @@ The interface is designed to be **simple, intuitive, and professional**:
 
 For each annotated image, the tool automatically generates:
 
-### 1️⃣ Segmentation Mask
+### 1️⃣ Original Image and Segmentation Mask
+a) Image 1.jpg
 
-Masks/Image 1_mask.png
+<p align="center">
+  <img src="Image 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
+</p>
+
+
+b) Masks/Image 1_mask.png
+
+<p align="center">
+  <img src="Masks/Image 1_mask.png" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
+</p>
+
+- Binary mask
+- Foreground = 255, Background = 0
+
+### 2️⃣ Bounding Box Annotations
+
+BBoxes/Image 1_bboxes.csv
+
+
+**CSV format**
+| Column | Description |
+|------|-------------|
+| x, y | Top-left corner |
+| w, h | Width & height |
+| x1, y1 | Top-left (corner format) |
+| x2, y2 | Bottom-right |
+
+This format is **directly convertible** to YOLO, COCO, or custom pipelines.
+
+---
+
+## 🛠 System Requirements
+
+### MATLAB
+- **MATLAB R2024a or newer** (recommended)
+
+### Required Toolboxes
+- Image Processing Toolbox
+- Deep Learning Toolbox
+- Image Processing Toolbox Model for Segment Anything Model (Support Package)
+
+> GPU is optional. CPU-only execution is fully supported.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+
+git clone 
+https://github.com/Owais-CodeHub/SAM-MATLAB-Annotation-Tool.git
+
+
+2️⃣ Open MATLAB
+
+Ensure all required toolboxes and the SAM support package are installed.
+
+3️⃣ Run the Application
+
+SAM_Image_Annotation_App.m
