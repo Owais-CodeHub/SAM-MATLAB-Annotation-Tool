@@ -1,4 +1,4 @@
-# 🧠 QuickSAM: Annotation Tool  
+# 🧠 QuickSAM by KU: Annotation Tool  
 ### Interactive Image Annotation Using Segment Anything Model (SAM) in MATLAB
 
 <p align="center">
