@@ -1,43 +1,64 @@
-# SAM-MATLAB-Annotation-Tool
+# 🧠 SAM-MATLAB-Annotation-Tool  
+### Interactive Image Annotation Using Segment Anything Model (SAM) in MATLAB
 
-An interactive **MATLAB-based image annotation tool** powered by the **Segment Anything Model (SAM)**, enabling fast, training-free segmentation using **bounding boxes (and optional point prompts)**, with automatic export of **segmentation masks** and **bounding box annotations**.
+<p align="center">
+  <img src="README Data/Screenshot 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="90%">
+</p>
+
+<p align="center">
+  <b>A professional, training-free image annotation tool built in MATLAB using the Segment Anything Model (SAM)</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MATLAB-R2024a+-orange">
+  <img src="https://img.shields.io/badge/Segment%20Anything-SAM-blue">
+  <img src="https://img.shields.io/badge/Annotation-Interactive-success">
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey">
+</p>
 
 ---
 
 ## 🔍 Overview
 
-**SAM-MATLAB-Annotation-Tool** is a lightweight yet powerful image annotation application built entirely in MATLAB using the Segment Anything Model (SAM).  
-It is designed for **image-by-image annotation**, allowing users to interactively segment objects, refine results, and export annotations in formats ready for downstream **computer vision and deep learning workflows**.
+**SAM-MATLAB-Annotation-Tool** is a clean, interactive, and production-ready image annotation application developed entirely in **MATLAB** and powered by the **Segment Anything Model (SAM)**.
 
-The tool focuses on:
-- Simplicity
-- Interactivity
-- High-quality masks without model training
+The tool enables **image-by-image annotation** using **bounding boxes (and extensible point prompts)**, producing **high-quality segmentation masks** without any model training.  
+It is ideal for **researchers, engineers, and practitioners** who want fast and accurate ground-truth generation directly inside MATLAB.
 
 ---
 
-## ✨ Key Features
+## ✨ Key Capabilities
 
-- 📂 **Image-by-image annotation**
-- 🔲 **Bounding-box based segmentation**
-- 🧠 **SAM-powered segmentation (no training required)**
-- 🔁 **Interactive refinement**
-- 🗑 **Delete last box / clear all annotations**
-- 💾 **Automatic export**
-  - Binary segmentation masks (`.png`)
-  - Bounding box annotations (`.csv`)
-- 📁 Automatic folder creation:
-  - `Masks/`
-  - `BBoxes/`
-- 🧩 Clean, extensible MATLAB UI
+✔ Interactive **bounding-box based segmentation**  
+✔ Powered by **foundation model (SAM)** — no fine-tuning required  
+✔ **Iterative refinement** (add / delete boxes at any time)  
+✔ Clean MATLAB **GUI-based workflow**  
+✔ Automatic export of:
+- 🖼 Segmentation masks (`.png`)
+- 📦 Bounding boxes (`.csv`)  
+✔ Auto-generated dataset structure (`Masks/`, `BBoxes/`)  
+✔ Ready for **deep learning pipelines** (YOLO / COCO compatible)
 
 ---
 
-## 🖼 Screenshots
+## 🖼 User Interface
 
-You can add screenshots of the tool interface here.
+The interface is designed to be **simple, intuitive, and professional**:
 
-### How to add a screenshot
+- **Left panel**: Image annotation (draw bounding boxes)
+- **Right panel**: Real-time segmentation overlay
+- **Bottom controls**:
+  - Load Image
+  - Add / Delete Boxes
+  - Segment
+  - Save Mask + BBox
 
-1. Take a screenshot of your running MATLAB app  
-2. Save it in your repository (recommended folder name: `assets/` or `images/`)
+> The screenshot above shows a real annotation session using SAM inside MATLAB.
+
+---
+
+## 🧠 Annotation Outputs
+
+For each annotated image, the tool automatically generates:
+
+### 1️⃣ Segmentation Mask
