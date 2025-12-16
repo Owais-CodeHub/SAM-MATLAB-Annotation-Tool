@@ -65,15 +65,9 @@ For each annotated image, the tool automatically generates:
 a) Image 1.jpg
 
 <p align="center">
-  <img src="Image 1.jpg" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
+  <img src="README Data/Picture1.png" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
 </p>
 
-
-b) Masks/Image 1_mask.png
-
-<p align="center">
-  <img src="Masks/Image 1_mask.png" alt="SAM MATLAB Annotation Tool Screenshot" width="40%">
-</p>
 
 - Binary mask
 - Foreground = 255, Background = 0
